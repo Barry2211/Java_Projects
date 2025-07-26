@@ -28,7 +28,6 @@ public class NewUserModel {
 	public void setPhone(long phone) {
 		this.phone = phone;
 	}
-	
 	public void setPassword(String password) {
 		this.password = password;
 	}
