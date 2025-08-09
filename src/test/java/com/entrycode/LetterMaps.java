@@ -10,6 +10,8 @@ public class LetterMaps {
 		letters.put("o", 2);
 		letters.put("i", 3);
 		letters.put("p", 4);
+		System.out.println(letters.getOrDefault("y", 0));
+		String.format("%03d", 20);
 		for(int i=0;i<spring.length();i++) {
 			String cha=spring.charAt(i)+"";
 			System.out.println(letters.get(cha.toLowerCase()));
